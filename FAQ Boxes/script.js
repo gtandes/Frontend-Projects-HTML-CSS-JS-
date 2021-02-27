@@ -1,5 +1,5 @@
 // const faqDiv = document.querySelectorAll(".faq");
-const toggleBtn = document.querySelectorAll(".faq-toggle");
+const toggleBtns = document.querySelectorAll(".faq-toggle");
 
 // faqDiv.forEach((div) => {
 //   toggleBtn.addEventListener("click", (button) => {
@@ -7,8 +7,8 @@ const toggleBtn = document.querySelectorAll(".faq-toggle");
 //   });
 // });
 
-toggleBtn.forEach((toggle) => {
-  toggle.addEventListener("click", () => {
-    toggle.parentNode.classList.toggle("active");
+toggleBtns.forEach((toggleBtn) => {
+  toggleBtn.addEventListener("click", () => {
+    toggleBtn.parentNode.classList.toggle("active");
   });
 });
