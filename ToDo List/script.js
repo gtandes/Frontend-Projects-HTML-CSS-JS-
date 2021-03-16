@@ -50,7 +50,7 @@ function addTodo(todo) {
 }
 
 function updateLS() {
-    todosEl = document.querySelectorAll('li')
+    let todosEl = document.querySelectorAll('li')
 
     const todos = []
 
